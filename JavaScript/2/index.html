@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<title>02_【演習】for文でプルダウンメニューを作る</title>
+<body>
+<form>
+    <select name="age">
+        <option>選択してください</option>
+        <script>
+            for(var i = 18; i <= 65; i++){
+              document.write("<option>");
+              document.write(i);
+              document.write("</option>");
+            }
+        </script>
+    </select>
+</form>
+</body>
+
